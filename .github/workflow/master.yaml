@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: the name is bond
-      uses: nanasess/setup-php@v4
-      with: 
-        php-version: '8.1'
+        uses: nanasess/setup-php@v4
+        with: 
+          php-version: '8.1'
       - run: shell_exec("echo 'PHP8!!!'")
